@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/ru_RU/editor.xml
+  *
+  * Copyright (c) 2014-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+	* Localization strings for the ru_RU (Русский) locale.
+  -->
+
+<locale name="ru_RU" full_name = "Russian">
+	<message key="editor.submissionLibrary">Библиотека материалов</message>
+	<message key="editor.review.notInitiated">Процесс рецензирования еще не начат.</message>
+	<message key="editor.submission.copyediting.personalMessageToUser">Сообщение пользователю</message>
+	<message key="editor.submission.externalReviewDescription">Выберите файлы ниже, чтобы отправить их на рассмотрение.</message>
+	<!-- Add file or auditor to editor/audit grids -->
+	<message key="editor.submission.fileAuditor.form.fileRequired">Вы должны выбрать хотя бы один файл для назначения пользователя.</message>
+	<message key="editor.submission.fileAuditor.form.messageRequired">Необходимо добавить персональное сообщение.</message>
+	<message key="editor.submission.fileAuditor.skipEmail">Не отправлять E-mail аудитору</message>
+	<message key="editor.submission.fileAuditor.form.userRequired">Выберите пользователя для назначения.</message>
+	<message key="editor.submission.uploadSelectFiles">Загрузка / Выбор файлов</message>
+	<message key="editor.submission.selectFiles">Выбор файлов</message>
+	<message key="editor.submission.revisions">Доработки</message>
+	<message key="editor.submission.review.reviewersDescription"><![CDATA[
+		Используйте ссылку <em>+Добавить рецензента</em> чтобы пригласить читателей к рассмотрению файлов материала.
+		Значок блокнота показывает, что рецензия была добавлен. После проведения консультации он отмечается как <em>Просмотренный</em>.
+		В случае, если рецензия не написана в срок, появляется красный значок с напоминанием.]]></message>
+	<message key="editor.submission.addReviewer">Добавить рецензента</message>
+	<message key="editor.submission.findAndSelectReviewer">Выберите рецензента</message>
+	<message key="editor.submission.findAndSelectUser">Выберите пользователя</message>
+	<message key="editor.submission.fileList.includeAllStages">Показать файлы со всех этапов.</message>
+	<message key="editor.submission.review.currentFiles">Файлы рецензии для раунда {$round}</message>
+	<message key="editor.submission.backToSearch">Назад к поиску</message>
+	<message key="editor.review.createReviewer">Создать рецензента</message>
+	<message key="editor.review.enrollReviewer.short">Зарегистрировать существующего пользователя</message>
+	<message key="editor.review.unassignReviewer">Снять рецензента</message>
+	<message key="editor.submissionReview.reviewType">Тип рецензирования</message>
+	<message key="editor.submissionReview.skipEmail">Не отправлять E-mail автору</message>
+	<message key="editor.submissionReview.open">Открытое</message>
+	<message key="editor.submissionReview.blind">Слепое</message>
+	<message key="editor.submissionReview.doubleBlind">Двойное слепое</message>
+	<message key="editor.submissionReview.restrictFiles">Файлы к рецензированию</message>
+	<message key="editor.submissionReview.restrictFiles.hide">Скрыть выбор файлов</message>
+	<message key="editor.submissionReview.editReview">Изменить рецензию</message>
+	<message key="editor.review.personalMessageToReviewer">Сообщение рецензенту</message>
+	<message key="editor.review.importantDates">Важные даты</message>
+	<message key="editor.review.uploadRevision">Загрузить версию</message>
+	<message key="editor.review.NotifyAuthorAccept">Сообщить автору, что материал принят.</message>
+	<message key="editor.review.NotifyAuthorDecline">Сообщить автору, что материал отклонен.</message>
+	<message key="editor.review.NotifyAuthorRevisions">Запросить правки у автора.</message>
+	<message key="editor.review.NotifyAuthorResubmit">Запросить у автора правки для дальнейшего рассмотрения.</message>
+	<message key="editor.review.NotifyAuthorExternal">Сообщить автору о решении для проведения внешней рецензии.</message>
+	<message key="editor.review.personalMessageToAuthor">Сообщение автору</message>
+	<message key="editor.review.dateAccepted">Дата получения рецензии</message>
+	<message key="editor.review.noReviews">Отсутствуют рецензии для импорта </message>
+	<message key="editor.review.reminder">Напоминание о рецензии</message>
+	<message key="editor.review.thankReviewer">Благодарность</message>
+	<message key="editor.review.reminderError">Ошибка при отправке напоминания о рецензии</message>
+	<message key="editor.review.thankReviewerError">Ошибка при отправке благодарности рецензенту</message>
+	<message key="editor.review.skipEmail">Не отправлять E-mail рецензенту.</message>
+	<message key="editor.review.sendReminder">Отправить напоминание</message>
+	<message key="editor.review.readReview">Читать рецензию</message>
+	<message key="editor.review.readNewReview">Читать рецензию</message>
+	<message key="editor.review.responseDue">Срок ответа: {$date}</message>
+	<message key="editor.review.requestSent">Запрос отправлен</message>
+	<message key="editor.review.requestAccepted">Запрос принят</message>
+	<message key="editor.review.revertDecision">Отменить решение</message>
+	<message key="editor.review.reviewDue">Срок написания рецензии: {$date}</message>
+	<message key="editor.review.reviewDueDate">Дата получения рецензии</message>
+	<message key="editor.review.reviewCompleted">Рецензия завершена</message>
+	<message key="editor.review.reviewConfirmed">Рецензия подтверждена</message>
+	<message key="editor.review.reviewSubmitted">Рецензия отправлена</message>
+	<message key="editor.review.reviewerComments">Комментарии рецензента</message>
+	<message key="editor.review.days">Среднее количество дней</message>
+	<message key="editor.review.mustSelect">Вы должны выбрать рецензента</message>
+	<message key="editor.review.errorAddingReviewer">Произошла ошибка при добавлении рецензента. Пожалуйста, попробуйте снова.</message>
+	<message key="editor.review.errorDeletingReviewer">Произошла ошибка при удалении рецензента. Пожалуйста, попробуйте снова.</message>
+	<message key="editor.review.userGroupSelect">Зарегистрируйте пользователя в группой "Рецензенты"</message>
+	<message key="editor.review.unconsiderReviewText">Вы действительно не хотите принимать во внимание данную рецензию? Рецензия будет сохранена в истории.</message>
+	<message key="editor.review.unconsiderReview">Не принимать во внимание</message>
+	<message key="editor.review.readConfirmation">После прочтения рецензии нажмите кнопку "Подтвердить" для продолжения процесса рассмотрения. Если рецензия предоставлена в другом месте (например, по почте), Вы можете загрузить файл ниже, после чего нажмите кнопку "Подтвердить", чтобы продолжить.</message>
+	<message key="editor.submission.selectCopyedingFiles">Файлы для литературного редактирования</message>
+	<message key="editor.submission.selectReviewer">Выбрать рецензента</message>
+	<message key="editor.submission.taskDueDate">Срок исполнения задачи</message>
+	<message key="editor.submission.taskSchedule">Расписание задач</message>
+	<message key="editor.review.enrollReviewer">Зарегистрировать существующего пользователя как рецензента</message>
+	<message key="editor.submission.noAuditRequested">Нет запросов аудита для данного файла</message>
+	<message key="editor.submission.personalMessageToUser">Сообщение пользователю</message>
+	<message key="editor.submission.proof.reminder">Напоминание подтверждения</message>
+	<message key="editor.submission.editorial.approveCopyeditDescription">The copyedited file needs to be approved before it can be sent to the Production stage. Do you want to approve this file?</message>
+	<message key="editor.submission.editorial.disapproveCopyeditDescription">Disapproving this copyedited file will make it unavailable to send to production stage. Do you want to disapprove this file?</message>
+	<message key="editor.submission.addAuditor">Assign Auditor</message>
+	<message key="editor.submission.copyedit.manageCopyeditFilesDescription">Any files that have already been uploaded to any submission stage can be added to the Copyedit Files listing by checking the Include checkbox below and clicking Search: all available files will be listed and can be chosen for inclusion. Additional files not already uploaded to a stage can be added to the listing by clicking the Upload File link.</message>
+	<message key="editor.review">Review</message>
+	<message key="editor.review.reviewDetails">Review Details</message>
+	<message key="editor.review.noReviewFilesUploaded">No Files Uploaded</message>
+	<message key="editor.review.noReviewFilesUploaded.details">You have not uploaded any review files.</message>
+	<message key="editor.review.emailReviewer">Email Reviewer</message>
+	<message key="editor.submission.production.productionReadyFiles">Production Ready Files</message>
+	<message key="editor.submission.newRound">New Review Round</message>
+	<message key="editor.submissionReview.recordDecision">Record Editorial Decision</message>
+	<message key="editor.submission.newRoundDescription">You are about to create a new review round for this submission.  Files that have not been used in other review rounds are listed below.</message>
+	<message key="editor.submission.createNewRound">Create New Review Round</message>
+	<message key="editor.article.reviewForms">Review Forms</message>
+	<message key="editor.article.selectReviewForm">Select Review Form</message>
+	<message key="editor.article.clearReviewForm">Clear Review Form</message>
+	<message key="editor.article.confirmChangeReviewForm">Warning: Changing the review form will affect any answers reviewers have made using this form. Are you sure you wish to continue?</message>
+	<message key="editor.submission.noReviewerFilesSelected">No Files Selected</message>
+	<message key="editor.submission.noReviewerFilesSelected.details">You have not selected any files for the reviewer to review.</message>
+	<message key="submission.queries.subjectRequired">A discussion subject is required.</message>
+	<message key="submission.queries.messageRequired">A discussion message is required.</message>
+	<message key="submission.queries.attachedFiles">Attached Files</message>
+	<message key="grid.action.editQuery">Edit Discussion</message>
+	<message key="editor.submission.query.manageQueryNoteFilesDescription">Files can be attached for inclusion in this discussion from the list below.</message>
+	<message key="editor.submission.selectedReviewer">Selected Reviewer</message>
+	<message key="editor.submission.proofreading.approveProof">Approve Proof</message>
+	<message key="editor.submission.proofreading.revokeProofApproval">Revoke Proof Approval</message>
+	<message key="editor.submission.proofreading.confirmCompletion">Approve this proof to indicate proofreading is complete and the file is ready to be published.</message>
+	<message key="editor.submission.proofreading.confirmRemoveCompletion">Revoke approval for this proof to indicate proofreading is no longer complete and the file is not ready to be published.</message>
+	<message key="editor.publicIdentificationExistsForTheSameType">The public identifier '{$publicIdentifier}' already exists for another object of the same type. Please choose unique identifiers for the objects of the same type within your journal.</message>
+	<message key="editor.publicIdentificationNumericNotAllowed">The public identifier '{$publicIdentifier}' must not be a number.</message>
+	<message key="editor.publicIdentificationPatternNotAllowed">The pattern {$pattern} is not allowed for the public identifier.</message>
+</locale>
