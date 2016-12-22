@@ -13,7 +13,7 @@
 
 <locale name="ru_RU" full_name = "Russian">
 	<!-- Общие -->
-	<message key="grid.noItems">Нет элементов</message>
+	<message key="grid.noItems">Пусто</message>
 	<message key="grid.settings">Настройки</message>
 	<message key="grid.noAuditors">Аудиторы отсутствуют</message>
 	<message key="grid.remotelyHostedItem">Элемент на удаленном сервере.</message>

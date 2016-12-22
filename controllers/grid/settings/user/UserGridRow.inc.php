@@ -66,7 +66,7 @@ class UserGridRow extends GridRow {
 						true
 						),
 					__('grid.user.email'),
-					'notify')
+					'envelope-o')
 			);
 			$this->addAction(
 				new LinkAction(
@@ -92,7 +92,7 @@ class UserGridRow extends GridRow {
 							true
 							),
 						__('common.enable'),
-						'enable')
+						'check-square-o')
 				);
 			} else {
 				$actionArgs['enable'] = false;
@@ -106,7 +106,7 @@ class UserGridRow extends GridRow {
 							true
 							),
 						__('grid.user.disable'),
-						'disable')
+						'square-o')
 				);
 			}
 			$this->addAction(
@@ -120,7 +120,7 @@ class UserGridRow extends GridRow {
 						'modal_delete'
 						),
 					__('grid.action.remove'),
-					'delete')
+					'trash-o')
 			);
 
 			$canAdminister = Validation::canAdminister($this->getId(), $request->getUser()->getId());

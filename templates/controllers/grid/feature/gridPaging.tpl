@@ -8,12 +8,12 @@
  * Grid paging markup.
  *}
 
-<div class="gridPaging">
-	<div class="gridItemsPerPage">
-		{translate key=common.itemsPerPage}:<select class="itemsPerPage"></select>
-	</div>
+<div class="gridPaging" style="text-align: center">
 	<div class="gridPages">
-		{page_info iterator=$iterator itemsPerPage=$currentItemsPerPage}
-		{page_links name=$grid->getId() iterator=$iterator}
+        {page_links name=$grid->getId() iterator=$iterator}
+	</div>
+    {page_info iterator=$iterator itemsPerPage=$currentItemsPerPage}
+	<div class="gridItemsPerPage">
+        {translate key=common.itemsPerPage}:<select class="itemsPerPage"></select>
 	</div>
 </div>

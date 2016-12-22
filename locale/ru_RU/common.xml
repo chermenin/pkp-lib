@@ -403,7 +403,7 @@
 	<message key="navigation.home">Главная</message>
 	<message key="navigation.infoForReaders">Для читателей</message>
 	<message key="navigation.infoForReaders.long">Информация для читателей</message>
-	<message key="navigation.items">{$from} - {$to} из {$total} результатов</message>
+	<message key="navigation.items">{$from} - {$to} из {$total}</message>
 	<message key="navigation.items.shownTotal">{$shown} из {$total}</message>
 	<message key="navigation.login">Вход</message>
 	<message key="navigation.nextPage"><![CDATA[&gt;&gt;]]></message>

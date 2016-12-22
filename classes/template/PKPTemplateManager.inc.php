@@ -1219,7 +1219,7 @@ class PKPTemplateManager extends Smarty {
 
 		for ($i=$pageBase; $i<min($pageBase+$numPageLinks, $pageCount+1); $i++) {
 			if ($i == $page) {
-				$value .= "<strong>$i</strong>&nbsp;";
+				$value .= "<a disabled='disabled'>$i</a>&nbsp;";
 			} else {
 				$params[$paramName] = $i;
 				$value .= '<a href="' . $this->_request->url(null, null, null, $requestedArgs, $params, $anchor) . '"' . $allExtra . '>' . $i . '</a>&nbsp;';
