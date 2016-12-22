@@ -37,6 +37,15 @@
 			padding-top: @half;
 			padding-bottom: @half;
 		}
+
+		.actions {
+			a {
+				top: 0px;
+				border-top: 2px solid @primary-lift;
+				padding: 0 1em 14px;
+				margin-left: @base;
+			}
+		}
 	}
 
 	// Footer
@@ -44,6 +53,12 @@
 		background: @grid-border-color;
 		padding-left: 1em;
 		padding-right: 1em;
+
+		.actions {
+			a {
+				font-size: @font-sml;
+			}
+		}
 	}
 
 	// Actions (header + footer )
@@ -52,7 +67,6 @@
 		float: right;
 		margin: 0;
 		padding: 0;
-		padding-top: 6px;
 		list-style: none;
 
 		li {
@@ -63,7 +77,6 @@
 			position: relative;
 			top: 1px; // alignment to account for filter toggle offset
 			display: inline-block;
-			border-top: 2px solid transparent;
 			padding: 0 1em @half;
 			line-height: @double;
 			font-weight: @bold;
@@ -466,6 +479,7 @@
 		padding: @half @base;
 		color: @text-light-rgba;
 		border-top: @grid-border;
+		font-size: @font-tiny;
 
 		.gridItemsPerPage {
 			float: left;
