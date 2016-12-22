@@ -64,7 +64,7 @@ class ContextGridRow extends GridRow {
 					$router->url($request, null, null, 'deleteContext', null, array('rowId' => $rowId))
 					),
 				__('grid.action.remove'),
-				'delete'
+				'trash-o'
 			)
 		);
 
