@@ -62,7 +62,7 @@ class NotificationsGridHandler extends GridHandler {
 				'markNew',
 				new NullAction(),
 				__('grid.action.markNew'),
-				'edit' // FIXME: Icon
+				'envelope-o'
 			),
 			GRID_ACTION_POSITION_BELOW
 		);
@@ -71,7 +71,7 @@ class NotificationsGridHandler extends GridHandler {
 				'markRead',
 				new NullAction(),
 				__('grid.action.markRead'),
-				'edit' // FIXME: Icon
+				'envelope-open-o'
 			),
 			GRID_ACTION_POSITION_BELOW
 		);
@@ -82,7 +82,7 @@ class NotificationsGridHandler extends GridHandler {
 				'deleteNotifications',
 				new NullAction(),
 				__('grid.action.delete'),
-				'delete'
+				'trash-o'
 			),
 			GRID_ACTION_POSITION_BELOW
 		);

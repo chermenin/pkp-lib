@@ -12,7 +12,7 @@
 
 .pkp_controllers_grid {
 	position: relative;
-	margin-bottom: @double * 2;
+	margin-bottom: @double;
 	font-size: @font-sml;
 	box-shadow: 0 1px 1px rgba(0,0,0,0.2);
 	border-radius: @radius;
@@ -482,18 +482,18 @@
 		font-size: @font-tiny;
 
 		.gridItemsPerPage {
-			float: left;
+			float: right;
 
 			select {
 				display: inline-block;
 				width: auto;
-				height: @line-sml;
+				height: @double;
 				margin-left: 0.5em;
 			}
 		}
 
 		.gridPages {
-			float: right;
+			float: left;
 
 			a {
 				&:extend(.pkp_button all);
